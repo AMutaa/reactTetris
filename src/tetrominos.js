@@ -32,7 +32,7 @@ export const TETROMINOS = {
 
 export const randomTetromino = () => {
   const tetrominos = "IJLOSTZ";
-  const randTetromino =
+  const randomTetromino =
     tetrominos[Math.floor(Math.random() * tetrominos.length)];
-  return TETROMINOS[randTetromino];
+  return TETROMINOS[randomTetromino];
 };
